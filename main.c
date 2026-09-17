@@ -2,20 +2,19 @@
 
 int main(void)
 {
-    float a;
-    float b;
+    int a;
+    int b;
 
-    float division;
+
 
     printf("분자를 입력하세요: ");
-    scanf("%f", &a);
+    scanf("%d", &a);
 
     printf("분모를 입력하세요: ");
-    scanf("%f", &b);
+    scanf("%d", &b);
 
-    division = a/b;
 
-    printf("나누기의 결과는 %f 입니다.", division);
+    printf("나누기의 결과는 %f 입니다.",(float)a/b);
 
     return 0;
 }
